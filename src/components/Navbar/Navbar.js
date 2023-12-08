@@ -1,34 +1,20 @@
-import React, {useState, useEffect} from 'react'
+import React, {useState} from 'react'
 import { Link } from 'react-router-dom'
-import { Button } from './Button';
 import './Navbar.css'
+import Logo from '../Assets/logo.svg'
 
 function Navbar() {
     const [click, setClick] = useState(false);
-    const [button, setButton] = useState(true);
 
     const handleClick = () => setClick(!click)
     const closeMobileMenu = () => setClick(false)
 
-    const showButton = () => {
-        if(window.innerWidth <= 960){
-            setButton(false)
-        }else{
-            setButton(true)
-        }
-    };
-
-    useEffect(() => {
-        showButton();
-    }, []);
-
-    window.addEventListener('resize', showButton);
   return (
     <>
       <nav className='navbar'>
         <div className='navbar-container'>
             <Link to="/" className='navbar-logo' onClick={closeMobileMenu}>
-               <img src="https://marinero.mx/uploads/recursos_etapa_2/svg/Recurso%20140.svg" alt="marineromx" />
+               <img src={Logo} alt="marineromx" />
             </Link>
             <div className='menu-icon' onClick={handleClick}>
                 <i className={click ? 'fa-solid fa-xmark' : 'fa-solid fa-bars'} />
@@ -60,12 +46,11 @@ function Navbar() {
                     </Link>
                 </li>
                 <li className='nav-item'>
-                    <Link to='/acceso' className='nav-links-mobile' onClick={closeMobileMenu}>
+                    <Link to='/login' className='nav-links' onClick={closeMobileMenu}>
                         Acceso
                     </Link>
                 </li>
             </ul>
-            {button && <Button buttonStyle='btn--outline'>Acceso</Button>}
         </div>
       </nav>
     </>
