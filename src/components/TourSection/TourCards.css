@@ -1,0 +1,87 @@
+.cardsTours {
+    min-height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    padding: 3rem;
+  }
+  
+  .tour-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .tour-card {
+    width: 100%;
+    max-width: 300px;
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    margin: 10px;
+    position: relative;
+    transition: transform 0.3s ease;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+  }
+  
+  @media screen and (min-width: 601px) {
+    .tour-card {
+      width: 48%; /* Dos cards en pantalla ancha */
+    }
+  }
+  
+  @media screen and (min-width: 901px) {
+    .tour-card {
+      width: 48%; /* Dos cards en pantalla ancha */
+    }
+  
+    @media screen and (min-width: 1200px) {
+      .tour-card {
+        width: 23%; /* Cuatro cards en pantalla ancha */
+      }
+    }
+  }
+  
+  .tour-card:hover {
+    transform: scale(1.1); /* Escala del 110% al hacer hover */
+  }
+  
+  .card-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para mejorar la legibilidad del texto */
+    width: 100%;
+    box-sizing: border-box;
+    height: 350px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+  }
+  
+  .btn--primary {
+    padding: 8px 5px;
+    border-radius: 15px;
+  }
+  
+  .btn--primary:hover {
+    color: #242424;
+    text-decoration: none;
+  }
+  
+  .card-content h3 {
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
