@@ -1,24 +1,40 @@
-import React from 'react'
-import './CaptainSection.css'
+import React from 'react';
+import './CaptainSection.css';
+import Captain from '../Assets/captain.png';
+import ImgDiv from '../Assets/waves.gif';
 
 function CaptainSection() {
   return (
-    <div className="captainSection">
-      <div class="card text-bg-dark">
-        <img src="https://marinero.mx/uploads/0000/23/2022/06/09/capitan3000.webp" class="card-img" alt="..." />
-        <div class="card-img-overlay">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">
-            This is a wider card with supporting text below as a natural lead-in
-            to additional content. This content is a little bit longer.
-          </p>
-          <p class="card-text">
-            <small>Last updated 3 mins ago</small>
-          </p>
+    <div className="captain--section flex">
+      <div className="row gap-3">
+        <div className="col-sm-12 col-md-6">
+          <div className="mainText">
+            <h1>¿Eres propietario de una embarcación?</h1>
+            <p className="subText">
+              Puedes ganar ingresos mensuales al registrarte con nosotros.
+            </p>
+            <button className='btn-primary btnCaptain'>Conviértete en Capitán</button>
+          </div>
+        </div>
+        <div className="col-sm-12 col-md-6">
+        <div className="captainImages">
+          <div className="imgDiv">
+            {/* Agrega el estilo para posicionar la imagen del div */}
+            <img
+              src={ImgDiv}
+              alt="imgDiv"
+              style={{ position: "relative", zIndex: 1 }}
+            />
+
+            {/* Agrega el estilo para posicionar la imagen del yate sobre la imagen del div */}
+          </div>
+          <img src={Captain} alt="yatch" className="yatch" />
         </div>
       </div>
+      </div>
+
     </div>
   );
 }
 
-export default CaptainSection
+export default CaptainSection;

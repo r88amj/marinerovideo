@@ -1,5 +1,7 @@
 import React from "react";
 import "./Footer.css";
+import Appstore from '../Assets/AppStore.webp'
+import Playstore from '../Assets/Playstore.webp'
 
 function Footer() {
   return (
@@ -51,11 +53,27 @@ function Footer() {
           </div>
           <div className="footer-links-items">
             <h2>Síguenos</h2>
-            <a href="/">Facebook</a>
-            <a href="/">instragram</a>
-            <a href="/">X</a>
-            <a href="/">Youtube</a>
-            <a href="/">TikTok</a>
+            <div className="social-icons">
+              <a href="/">
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+              <a href="/">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="/">
+                <i class="fa-brands fa-square-x-twitter"></i>
+              </a>
+              <a href="/">
+                <i class="fa-brands fa-youtube"></i>
+              </a>
+              <a href="/">
+                <i class="fa-brands fa-tiktok"></i>
+              </a>
+            </div>
+            <div className="stores">
+              <img src={Playstore} alt="google"/>
+              <img src={Appstore} alt="apple"/>
+            </div>
           </div>
         </div>
       </div>

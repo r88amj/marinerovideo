@@ -1,8 +1,9 @@
 import '../../App.css'
 import BoatsCards from '../BoatSection/BoatsCards'
-import Footer from '../Footer/Footer'
+import Footer2 from '../Footer/Footer2'
 import HeroSection from '../HeroSection/HeroSection'
 import TourCards from '../TourSection/TourCards'
+import CaptainSection from '../CaptainSection/CaptainSection'
 
 function Home () {
     return (
@@ -10,9 +11,9 @@ function Home () {
             {/*<HeroSection2 />*/}
             <HeroSection />
             <BoatsCards />
-            {/*<CaptainSection />*/}
+            <CaptainSection />
             <TourCards />
-            <Footer />
+            <Footer2 />
         </>
     )
 }

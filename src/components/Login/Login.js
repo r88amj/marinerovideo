@@ -2,14 +2,13 @@ import React, { useState } from "react";
 import login from "../Assets/login.jpg";
 import barco_azul from "../Assets/barco_azul.svg";
 import "./Login.css";
-import { Link, useNavigate } from "react-router-dom";
+import { Link} from "react-router-dom";
 import axios from "axios";
 
 function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const device_name = 'Web';
-  const navigate = useNavigate("");
 
   const handleEmail = (e) =>{
     e.preventDefault();
@@ -29,9 +28,9 @@ function Login() {
         password: password,
         device_name: device_name
     })
-    .then(response=>{
-        navigate('/')
-        console.log(response)
+    .then(result => {
+        console.log(result.data)
+        localStorage.setItem('token', result.data.token)
     })
     .catch(error =>{
         console.log(error)

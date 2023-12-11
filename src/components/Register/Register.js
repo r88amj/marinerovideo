@@ -3,7 +3,7 @@ import "./Register.css";
 import register from "../Assets/register.jpg";
 import barco_azul from "../Assets/barco_azul.svg";
 import { Link, useNavigate } from "react-router-dom";
-import { app, auth } from "../../utils/firebase";
+import { auth } from "../../utils/firebase";
 import { createUserWithEmailAndPassword } from "firebase/auth";
 
 function Register() {

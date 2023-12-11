@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react'
-import TourItem from './TourItem'
 import './TourCards.css'
 
+import TourItem2 from './TourItem2'
 function TourCards() {
     const [tours, setTours] = useState([])
 
@@ -26,7 +26,8 @@ function TourCards() {
           <h4 className="text-center mb-4 subtitle__Section">
           ¡Redescubre lo tradicional!
           </h4>
-          <TourItem tourItem={tours}/>
+          {/*<TourItem tourItem={tours}/>*/}
+          <TourItem2 tourItem={tours}/>
         </div>
       </div>
     </>

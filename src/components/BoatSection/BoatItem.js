@@ -43,7 +43,6 @@ const BoatItem = ({ boatItem = [] }) => {
   }, []); // El efecto se ejecutará solo una vez al montar el componente
 
   const settings = {
-    dots: true,
     infinite: true,
     lazyLoad: true,
     speed: 500,
