@@ -33,7 +33,7 @@ const Hero = () => {
       <div className="col-sm-12 col-md-6 textHero">
         <h2>Renta de Embarcaciones</h2>
         <h4>A un click de la Aventura</h4>
-        <img src={BoatImg} />
+        <img src={BoatImg} alt='marineromx'/>
       </div>
     </div>
   );
