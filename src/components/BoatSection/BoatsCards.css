@@ -6,12 +6,12 @@
     padding: 3rem;
 }
 
-.sliderCards{
+.cardsBoatsCs .sliderCards{
     margin: 0 auto;
     height: 500px;;
 }
 
-.slick-slide img{
+.cardsBoatsCs .slick-slide img{
     height: 300px;
     object-fit: cover;
     object-position: center;
@@ -23,12 +23,12 @@
     transform-origin: center center;
 }
 
-.activeSlide:hover img{
+.cardsBoatsCs .activeSlide:hover img{
     transform: scale(1.1);
 }
 
 
-.slide{
+.cardsBoatsCs .slide{
     transform: scale(0.4);
     transition: transform 300ms;
     opacity: 0.5;
@@ -42,50 +42,50 @@
     
 }
 
-.slide > a {
+.cardsBoatsCs .slide > a {
    border-radius: 15px;
 }
 
-.activeSlide{
+.cardsBoatsCs .activeSlide{
     transform: scale(0.9);
     opacity: 1;
     text-align: center;
 }
 
-.arrow{
+.cardsBoatsCs .arrow{
     background-color: #FFF;
     position: absolute;
     cursor: pointer;
     z-index: 10;
 }
 
-.boatTitle{
+.cardsBoatsCs .boatTitle{
     margin-top: 30px;
 }
 
 
 
-.arrow svg{
+.cardsBoatsCs .arrow svg{
     transition: color 300ms;
 }
 
-.arrow svg:hover{
+.cardsBoatsCs .arrow svg:hover{
     color: #68edff;
 }
 
-.next{
+.cardsBoatsCs .next{
     right: 0;
     top: 50%;
 }
 
-.prev{
+.cardsBoatsCs .prev{
     left: 0;
     top: 50%;
 }
 
 
 @media screen and (max-width:991px) {
-    .slide > a {
+    .cardsBoatsCs .slide > a {
         width: 180px;
     }
 

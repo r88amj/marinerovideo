@@ -1,0 +1,95 @@
+@import "~slick-carousel/slick/slick.css"; 
+@import "~slick-carousel/slick/slick-theme.css";
+
+.cardsExpCss{
+    min-height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardsExpCs .sliderCardsTours {
+    margin: 0 auto;
+    height: 500px;;
+  }
+  
+  .sliderCardsTours .slide {
+    position: relative;
+    height: 450px;
+    overflow: hidden;
+    transform: scale(0.9);
+  }
+  
+  .sliderCardsTours .image-container {
+    position: relative;
+    overflow: hidden;
+    height: 450px;
+    border-radius: 25px;
+  }
+  
+.sliderCardsTours img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    transition: transform 0.3s;
+    transform-origin: center center;
+  }
+
+  .sliderCardsTours .slide:hover img{
+    transform: scale(1.1);
+  }
+  
+  .sliderCardsTours .content-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+    justify-content:end;
+    color: white; /* Color del texto sobre la imagen */
+    background-color: rgba(0, 0, 0, 0.6); /* Fondo semi-transparente para el overlay */
+  }
+  
+  .sliderCardsTours .tour__Title,
+  .sliderCardsTours .tour__location,
+  .sliderCardsTours .tour__price,
+  .sliderCardsTours .tour__More {
+    margin: 5px 0;
+  }
+  
+  .sliderCardsTours .tour__Title{
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  /* Estilos para las flechas de navegación (puedes personalizar según tus necesidades) */
+  .sliderCardsTours .arrow {
+    background-color: #FFF;
+    position: absolute;
+    cursor: pointer;
+    z-index: 10;
+  }
+  
+  .sliderCardsTours .next {
+    right: 0;
+    top: 50%;
+  }
+  
+  .sliderCardsTours .prev {
+    left: 0;
+    top: 50%;
+  }
+
+  .sliderCardsTours .tour__More{
+    width: 150px;
+    border-radius: 15px;
+  }
+  
