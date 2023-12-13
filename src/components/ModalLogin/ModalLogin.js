@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Modal, Tab, Tabs, Image, Col, Row, Form, Button } from 'react-bootstrap';
+import React from 'react';
+import { Modal, Tab, Tabs, Col, Row, Form, Button } from 'react-bootstrap';
 import './ModalLogin.css';
 import LoginImg from '../Assets/login.jpg'
 import RegisterImg from '../Assets/register.jpg'
@@ -25,12 +25,12 @@ function ModalLogin({ show, handleClose }) {
           <Tabs
             defaultActiveKey="login"
             id="uncontrolled-tab-example"
-            className="justify-content-center"
+            className="justify-content-center custom-tabs"
           >
             <Tab eventKey="login" title="Iniciar sesión">
               <Row>
                 <Col md={6} className="colImg">
-                  <img src={LoginImg} fluid />
+                  <img src={LoginImg} fluid alt='loginImg' />
                 </Col>
                 <Col md={6} className="formLogin">
                   <Form>
@@ -119,7 +119,7 @@ function ModalLogin({ show, handleClose }) {
                   </Form>
                 </Col>
                 <Col md={6} className="colImg">
-                  <img src={RegisterImg} fluid />
+                  <img src={RegisterImg} fluid alt='registerImg'/>
                 </Col>
               </Row>
             </Tab>

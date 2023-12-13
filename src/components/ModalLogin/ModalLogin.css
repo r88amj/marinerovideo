@@ -1,7 +1,7 @@
 .closeButton,
 .closeButton:hover{
     cursor: pointer;
-    color: #333;
+    color: #fff;
     text-decoration: none;
     background-color: transparent;
     border: none;
@@ -18,10 +18,17 @@
     margin-bottom: 20px;
     margin-top: 10px;
     margin-right: 20px;
+    border-bottom: none !important;
 }
 
 .ModalLoginRegister .modal-content{
     border-radius: 25px;
+    border: none;
+    background-image: url('../Assets/Background_CTA.svg');
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    
 }
 .modal-body{
     padding: 0;
@@ -50,6 +57,14 @@
     object-fit: cover;
 }
 
+.formLogin,
+.formRegister{
+    background-image: url(../Assets//card.png);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    color: #fff;
+}
 .formRegister{
     padding: 30px;
     display: flex;
@@ -64,6 +79,33 @@
 .custom-checkbox label{
     font-size: 12px;
 }
+
+.custom-tabs{
+    align-items: flex-end;
+}
+
+.custom-tabs .nav-tabs{
+    border-bottom: none !important;
+}
+.custom-tabs .nav-link {
+    color: #007bff;
+    background: #fff;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    margin: 0 5px;
+  }
+  
+  .custom-tabs .nav-link.active {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none !important;
+  }
+  
+  .custom-tabs .nav-link:hover {
+    background-color: #0056b3;
+    color: #ffffff;
+  }
+  
 
 @media screen and (max-width:767px) {
     .colImg{
