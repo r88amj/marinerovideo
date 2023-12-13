@@ -93,13 +93,13 @@ function ModalLogin({ show, handleClose }) {
                     </Form.Group>
 
                     <Form.Group controlId="formBasicEmail">
-                      <Form.Label>Email address</Form.Label>
-                      <Form.Control type="email" placeholder="Enter email" />
+                      <Form.Label>Correo Electrónico</Form.Label>
+                      <Form.Control type="email" placeholder="Correo Electrónico" />
                     </Form.Group>
 
                     <Form.Group controlId="formBasicPassword">
-                      <Form.Label>Password</Form.Label>
-                      <Form.Control type="password" placeholder="Password" />
+                      <Form.Label>Contraseña</Form.Label>
+                      <Form.Control type="password" placeholder="Contraseña" />
                       <Form.Text className="text-muted">
                         <p>* La contraseña debe tener al menos 6 caracteres. Debe
                         incluir minúsculas, mayúsculas y al menos un número.</p>
