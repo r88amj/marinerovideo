@@ -9,27 +9,34 @@
 
 .modal-header{
     text-align: right;
-    height: 10px;
     width: 100%;
     align-self: flex-end !important;
     justify-content: end !important;
     border-bottom: none;
     padding: 0;
-    margin-bottom: 20px;
-    margin-top: 10px;
-    margin-right: 20px;
     border-bottom: none !important;
 }
 
 .ModalLoginRegister .modal-content{
     border-radius: 25px;
     border: none;
-    background-image: url('../Assets/Background_CTA.svg');
-    background-position: center;
-    background-repeat: none;
-    background-size: cover;
+background: transparent;
     
 }
+
+.formColumn{
+    background-image: url('../Assets/card.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding: 30px;
+}
+
 .modal-body{
     padding: 0;
     overflow: hidden;
@@ -41,13 +48,6 @@
     min-height: 600px;
 }
 
-.formLogin{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
 .colImg{
     padding: 0;
 }
@@ -57,55 +57,25 @@
     object-fit: cover;
 }
 
-.formLogin,
-.formRegister{
-    background-image: url(../Assets//card.png);
-    background-position: center;
-    background-repeat: none;
-    background-size: cover;
-    color: #fff;
-}
-.formRegister{
-    padding: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.formRegister p{
-    font-size: 12px;
-}
-
 .custom-checkbox label{
     font-size: 12px;
 }
 
-.custom-tabs{
-    align-items: flex-end;
+.formColumn .link{
+    border: none;
+    background: transparent;
+    color: #fff;
+    font-weight: 800;
 }
 
-.custom-tabs .nav-tabs{
-    border-bottom: none !important;
+.right-align {
+    text-align: right;
+  }
+  
+.btnForm{
+    align-self: center;
+    width: 100%;
 }
-.custom-tabs .nav-link {
-    color: #007bff;
-    background: #fff;
-    border-top-right-radius: 15px;
-    border-top-left-radius: 15px;
-    margin: 0 5px;
-  }
-  
-  .custom-tabs .nav-link.active {
-    background-color: #007bff;
-    color: #ffffff;
-    border: none !important;
-  }
-  
-  .custom-tabs .nav-link:hover {
-    background-color: #0056b3;
-    color: #ffffff;
-  }
-  
 
 @media screen and (max-width:767px) {
     .colImg{
