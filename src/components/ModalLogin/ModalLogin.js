@@ -17,7 +17,7 @@ function ModalLogin({ show, handleClose }) {
         <p className="right-align">
           ¿No tienes una cuenta?{' '}
           <button className="link" onClick={() => handleFormSwitch('register')}>
-            Crea una aquí
+            Registrarse
           </button>
         </p>
       );
@@ -79,7 +79,7 @@ function ModalLogin({ show, handleClose }) {
                   </Form.Group>
 
                   <Button variant="primary mt-3 mb-4 btnForm" type="submit">
-                    Iniciar sesión
+                    Iniciar Sesión
                   </Button>
                   {renderSwitchLink()}
                 </Form>

@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/marinerovideo/build/static/css/main.72696290.css",
+    "main.js": "/marinerovideo/build/static/js/main.2993b9c9.js",
+    "static/media/card.png": "/marinerovideo/build/static/media/card.762288a4bcc4ecb60cc6.png",
+    "static/media/beach.gif": "/marinerovideo/build/static/media/beach.176082061c948c6f1299.gif",
+    "static/media/register.jpg": "/marinerovideo/build/static/media/register.d59c1001f696fb2f1359.jpg",
+    "static/media/boat.png": "/marinerovideo/build/static/media/boat.f0d11e8c1c60290badbd.png",
+    "static/media/login.jpg": "/marinerovideo/build/static/media/login.ecec4055588faa84b4a4.jpg",
+    "static/media/captain.png": "/marinerovideo/build/static/media/captain.282e973091a7bc21dfda.png",
+    "static/media/Background_CTA.svg": "/marinerovideo/build/static/media/Background_CTA.c02afffa3e9d3ba3e800.svg",
+    "static/media/MercadoPago.svg": "/marinerovideo/build/static/media/MercadoPago.32b9743106518eecfe3ea1c425982b5f.svg",
+    "static/media/obtenga_promociones_es.png": "/marinerovideo/build/static/media/obtenga_promociones_es.24d74fde481af6e3d9e6.png",
+    "static/media/pescadito_con_mar_y_m.svg": "/marinerovideo/build/static/media/pescadito_con_mar_y_m.1d76f887d8fb9be5a981ec780abcc081.svg",
+    "static/media/slick.svg": "/marinerovideo/build/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/marinerovideo/build/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/marinerovideo/build/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "index.html": "/marinerovideo/build/index.html",
+    "static/media/amex.svg": "/marinerovideo/build/static/media/amex.c15b09c6dec047b141dffa4c58dab930.svg",
+    "static/media/slick.woff": "/marinerovideo/build/static/media/slick.295183786cd8a1389865.woff",
+    "static/media/visa.svg": "/marinerovideo/build/static/media/visa.d38fc6ba5b8aa0c8b2b880fcdf1b4377.svg",
+    "static/media/Playstore.webp": "/marinerovideo/build/static/media/Playstore.5ab7810ca787f97d47de.webp",
+    "static/media/barco_azul.svg": "/marinerovideo/build/static/media/barco_azul.270c680fbc2d4a9cb601c649f9b49bb5.svg",
+    "static/media/AppStore.webp": "/marinerovideo/build/static/media/AppStore.c27d60357ff96ed12e6e.webp",
+    "static/media/master.svg": "/marinerovideo/build/static/media/master.3be83b194b760d7c0e7575b8cea3c9a6.svg",
+    "main.72696290.css.map": "/marinerovideo/build/static/css/main.72696290.css.map",
+    "main.2993b9c9.js.map": "/marinerovideo/build/static/js/main.2993b9c9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.72696290.css",
+    "static/js/main.2993b9c9.js"
+  ]
+}
