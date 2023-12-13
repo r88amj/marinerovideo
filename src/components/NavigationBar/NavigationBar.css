@@ -1,7 +1,7 @@
 /* src/components/NavigationBar.css */
 
 .navigation-bar {
-  background-color: #333;
+  background-color: #0554f0;
   color: #fff;
   padding: 10px;
   position: relative;
@@ -66,7 +66,7 @@
 
 @media (min-width: 960px) {
   .navigation-bar{
-    background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+    background: #0554f0;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -142,6 +142,7 @@
 
     .btn--outline{
       padding: 8px 20px;
+      border: none !important;
     }
   }
 
