@@ -55,8 +55,8 @@ function Register() {
               <input
                 type="text"
                 className="form-control"
-                placeholder="Nombre del Negocio"
-                id="business_name"
+                placeholder="Nombre de usuario"
+                id="user_name"
               />
             </div>
             <div className="col-md-6 form-floating mb-3">

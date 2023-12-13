@@ -1,7 +1,7 @@
 import React from 'react';
 import './CaptainSection.css';
 import Captain from '../Assets/captain.png';
-import ImgDiv from '../Assets/waves.gif';
+import ImgDiv from '../Assets/beach.gif';
 
 function CaptainSection() {
   return (

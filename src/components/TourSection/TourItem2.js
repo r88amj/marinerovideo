@@ -14,14 +14,14 @@ function TourItem2() {
     },
     desktop: {
       breakpoint: { max: 2600, min: 1024 },
-      items: 3,
+      items: 4,
     },
     tablet: {
-      breakpoint: { max: 1024, min: 770 },
+      breakpoint: { max: 1024, min: 460 },
       items: 2,
     },
     mobile: {
-      breakpoint: { max: 770, min: 0 },
+      breakpoint: { max:459, min: 0 },
       items: 1,
     },
   };

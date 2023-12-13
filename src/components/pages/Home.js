@@ -1,18 +1,19 @@
 import '../../App.css'
 import BoatsCards from '../BoatSection/BoatsCards'
 import Footer2 from '../Footer/Footer2'
-import HeroSection from '../HeroSection/HeroSection'
-import TourCards from '../TourSection/TourCards'
 import CaptainSection from '../CaptainSection/CaptainSection'
+import News from '../News/News'
+import Hero from '../Hero/Hero'
+import ExperienceCards from '../Experiences/ExperienceCards'
 
 function Home () {
     return (
         <>
-            {/*<HeroSection2 />*/}
-            <HeroSection />
+            <Hero />
             <BoatsCards />
             <CaptainSection />
-            <TourCards />
+            <ExperienceCards />
+            <News />
             <Footer2 />
         </>
     )

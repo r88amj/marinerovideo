@@ -1,0 +1,133 @@
+.hero-search{
+   background-image: url('../Assets//card.png');
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+    height: 100vh;
+    justify-content:center ;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+}
+
+.hero-search button{
+    background-color: rgba(247, 247, 247, 0.7);
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    margin: 0 3px;
+    color: #fff;
+    width: 130px;
+}
+
+.hero-search .formSearchs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formBoat{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.formBoat label{
+    font-size: .8rem;
+    padding-bottom: 2px;
+    font-weight: bold;
+}
+
+.form--boats input, 
+.form--boats select{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    padding: 3px;
+}
+
+.form--boats select:focus{
+    outline: none;
+}
+
+.hero-search .form--boats{
+    height: 350px;
+    background-color: rgba(247, 247, 247, 0.8);
+    box-shadow: rgba(0, 0, 0, 0.9) 0px 8px 24px;
+    width: 300px;
+    border-radius: 15px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dateSearch,
+.locationBoat{
+    width: 100%;
+}
+
+.button-active {
+    background-color: #0554f0 !important;
+    color: #ffffff;
+  }
+
+  .form--boats .btn-primary{
+    width: 150px;
+    text-align: center;
+    align-self: center;
+    border-radius: 15px;
+    background-color: #0554f0 !important;
+  }
+
+  .textHero{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .textHero img{
+    width: 80%;
+}
+
+.textHero h2{
+    margin-bottom: 30px;
+    font-size: 60px;
+}
+
+.textHero h4{
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+@media screen and  (max-width:767px) {
+    .textHero{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .textHero h2{
+        font-size: 30px;
+    }
+    
+    .textHero h4{
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:888px) {
+    .textHero h2{
+        font-size: 40px;
+    }
+}
