@@ -26,22 +26,22 @@ function Navbar() {
                     </Link>
                 </li>
                 <li className='nav-item'>
-                    <Link to='/embarcaciones' className='nav-links' onClick={closeMobileMenu}>
+                    <Link to='https://marinero.mx/boat?_layout=maps' className='nav-links' onClick={closeMobileMenu}>
                         Embarcaciones
                     </Link>
                 </li>
                 <li className='nav-item'>
-                    <Link to='/experiencias' className='nav-links' onClick={closeMobileMenu}>
+                    <Link to='https://marinero.mx/tour?_layout=map' className='nav-links' onClick={closeMobileMenu}>
                         Experiencias
                     </Link>
                 </li>
                 <li className='nav-item'>
-                    <Link to='/caonviertete-en-capitan' className='nav-links' onClick={closeMobileMenu}>
+                    <Link to='https://marinero.mx/page/conviertete-en-capitan' className='nav-links' onClick={closeMobileMenu}>
                         Conviértete en Capitán
                     </Link>
                 </li>
                 <li className='nav-item'>
-                    <Link to='/blog' className='nav-links' onClick={closeMobileMenu}>
+                    <Link to='https://marinero.mx/news' className='nav-links' onClick={closeMobileMenu}>
                         Blog
                     </Link>
                 </li>
