@@ -38,86 +38,133 @@ function Footer2() {
           <div className="col-12 logo--social--stores">
             <img src={LogoAzul} alt="logo_azul" className="logo--azul" />
             <h5>Síguenos</h5>
-            <div className="social--media--icons">
-              <a href="/">
+            {/*  <div className="social--media--icons">
+              <a href="https://www.facebook.com/mxmarinero">
                 <i class="fa-brands fa-facebook"></i>
               </a>
-              <a href="/">
+              <a href="https://www.instagram.com/marinero.mx">
                 <i class="fab fa-instagram"></i>
               </a>
-              <a href="/">
+              <a href="https://twitter.com/marineromx">
                 <i class="fa-brands fa-twitter"></i>
               </a>
-              <a href="/">
+              <a href="https://www.youtube.com/@marineromx">
                 <i class="fa-brands fa-youtube"></i>
               </a>
-              <a href="/">
+              <a href="https://www.tiktok.com/@marineromx.oficial">
                 <i class="fa-brands fa-tiktok"></i>
               </a>
-            </div>
+  </div>*/}
+            <ul class="wrapper">
+              <li class="icon facebook">
+                <span class="tooltip">Facebook</span>
+                <span>
+                  <a href="https://www.facebook.com/mxmarinero">
+                    <i class="fab fa-facebook-f"></i>{" "}
+                  </a>
+                </span>
+              </li>
+              <li class="icon twitter">
+                <span class="tooltip">Twitter</span>
+                <span>
+                  <a href="https://twitter.com/marineromx">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </span>
+              </li>
+              <li class="icon instagram">
+                <span class="tooltip">Instagram</span>
+                <span>
+                  <a href="https://www.instagram.com/marinero.mx">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </span>
+              </li>
+              <li class="icon github">
+                <span class="tooltip">TikTok</span>
+                <span>
+                  <a href="https://www.tiktok.com/@marineromx.oficial">
+                    <i class="fab fa-tiktok"></i>
+                  </a>
+                </span>
+              </li>
+              <li class="icon youtube">
+                <span class="tooltip">Youtube</span>
+                <span>
+                  <a href="https://www.youtube.com/@marineromx">
+                    <i class="fab fa-youtube"></i>
+                  </a>
+                </span>
+              </li>
+            </ul>
             <div className="footer--stores">
-              <img src={Playstore} alt="google" />
-              <img src={Appstore} alt="apple" />
+              <a href="https://play.google.com/store/apps/details?id=com.marinero.mx&pli=1">
+                <img src={Playstore} alt="google" />
+              </a>
+              <a href="https://apps.apple.com/mx/app/marinero-mx/id6443705796">
+                <img src={Appstore} alt="apple" />
+              </a>
             </div>
           </div>
-          <div className='col-12 links--marinero-head'>
-            <div className='row links--marinero'>
-              <div className='col-sm-12 col-md-3 links--marinero--web'>
+          <div className="col-12 links--marinero-head">
+            <div className="row links--marinero">
+              <div className="col-sm-12 col-md-3 links--marinero--web">
                 <h2>Empresa</h2>
-                <a href="/">¿Quiénes Somos?</a>
-                <a href="/">Blog</a>
-                <a href="/">Preguntas Frecuentes</a>
-                <a href="/">¿Cómo Funciona?</a>
+                <a href="https://marinero.mx/page/nosotros">¿Quiénes Somos?</a>
+                <a href="https://marinero.mx/news">Blog</a>
+                <a href="https://marinero.mx/page/preguntas-frecuentes">
+                  Preguntas Frecuentes
+                </a>
+                <a href="https://marinero.mx/page/como-funciona">
+                  ¿Cómo Funciona?
+                </a>
               </div>
-              <div className='col-sm-12 col-md-3 links--marinero--web'>
+              <div className="col-sm-12 col-md-3 links--marinero--web">
                 <h2>Legal</h2>
-                <a href="/">Términos y Condiciones</a>
-                <a href="/">Pólitica de Privacidad</a>
-                <a href="/">Pólitica de Cancelaciones y Devoluciones</a>
+                <a href="https://marinero.mx/page/terminos-y-condiciones">
+                  Términos y Condiciones
+                </a>
+                <a href="https://marinero.mx/page/politica-de-privacidad">
+                  Pólitica de Privacidad
+                </a>
+                <a href="https://marinero.mx/page/politicas-de-cancelacion-y-devoluciones">
+                  Pólitica de Cancelaciones y Devoluciones
+                </a>
               </div>
-              <div className='col-sm-12 col-md-3 links--marinero--web'>
+              <div className="col-sm-12 col-md-3 links--marinero--web">
                 <h2>Contáctanos</h2>
                 <p>Llámanos</p>
                 <a href="/">+52 999 591 2310</a>
                 <p>Escríbenos</p>
-                <a href="/">hola@marinero.mx</a>
+                <a href="mailto:hola@marinero.mx?Subject=Hola%20Marinero%20|%20¡Estoy%20interesado%20en%20que%20se%20contacten%20conmigo!">
+                  hola@marinero.mx
+                </a>
               </div>
-              <div className='col-sm-12 col-md-3 img--footer'>
-                <img src={Pescadito} alt='pescado' />              </div>
+              <div className="col-sm-12 col-md-3 img--footer">
+                <img src={Pescadito} alt="pescado" />{" "}
+              </div>
             </div>
           </div>
         </div>
-        <div className='copyright'>
+        <div className="copyright">
           <small className="website-rights">© 2023 por marinero.mx</small>
           <div className="payment-methods">
             <li className="payment-methods-icon">
-              <img
-                src={Mercado}
-                alt="MercadoPago"
-              />
+              <img src={Mercado} alt="MercadoPago" />
             </li>
             <li className="payment-methods-icon">
-              <img
-                src={Amex}
-                alt="AMEX"
-              />
+              <img src={Amex} alt="AMEX" />
             </li>
             <li className="payment-methods-icon">
-              <img
-                src={Visa}
-                alt="Visa"
-              />
+              <img src={Visa} alt="Visa" />
             </li>
             <li className="payment-methods-icon">
-              <img
-                src={Master}
-                alt="MasterCard"
-              />
+              <img src={Master} alt="MasterCard" />
             </li>
           </div>
-          </div>
-          </div>
+        </div>
       </div>
+    </div>
   );
 }
 

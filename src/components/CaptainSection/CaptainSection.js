@@ -13,7 +13,7 @@ function CaptainSection() {
             <p className="subText">
               Puedes ganar ingresos mensuales al registrarte con nosotros.
             </p>
-            <button className='btn-primary btnCaptain'>Conviértete en Capitán</button>
+            <a href='https://marinero.mx/page/conviertete-en-capitan' className='btn-primary btnCaptain'>Conviértete en Capitán</a>
           </div>
         </div>
         <div className="col-sm-12 col-md-6">
