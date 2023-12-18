@@ -82,12 +82,12 @@ function Footer2() {
                 <p>Escríbenos</p>
                 <a href="/">hola@marinero.mx</a>
               </div>
-              <div className='col-sm-12 col-md-3'>
+              <div className='col-sm-12 col-md-3 img--footer'>
                 <img src={Pescadito} alt='pescado' />              </div>
             </div>
           </div>
         </div>
-        <div className='row copyright'>
+        <div className='copyright'>
           <small className="website-rights">© 2023 por marinero.mx</small>
           <div className="payment-methods">
             <li className="payment-methods-icon">
@@ -116,7 +116,7 @@ function Footer2() {
             </li>
           </div>
           </div>
-        </div>
+          </div>
       </div>
   );
 }

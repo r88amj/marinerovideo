@@ -195,3 +195,17 @@ margin: 0;
     border-top-left-radius: 15px;
     }
 }
+
+@media screen and (max-width:959px) {
+    .footer--wrapper{
+        padding-bottom: 50px;
+    }
+}
+
+@media screen and (max-width:767px){
+    .links--marinero--web,
+    .img--footer{
+        text-align: center;
+        padding: 0 10px;
+    }
+}
