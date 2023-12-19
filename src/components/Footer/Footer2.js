@@ -65,10 +65,10 @@ function Footer2() {
                 </span>
               </li>
               <li class="icon twitter">
-                <span class="tooltip">Twitter</span>
+                <span class="tooltip">X</span>
                 <span>
                   <a href="https://twitter.com/marineromx">
-                    <i class="fab fa-twitter"></i>
+                    <i class="fa-brands fa-x-twitter"></i>
                   </a>
                 </span>
               </li>
