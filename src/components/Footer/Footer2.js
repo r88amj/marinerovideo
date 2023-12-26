@@ -134,7 +134,7 @@ function Footer2() {
               <div className="col-sm-12 col-md-3 links--marinero--web">
                 <h2>Contáctanos</h2>
                 <p>Llámanos</p>
-                <a href="https://api.whatsapp.com/send?phone=+52 999 591 2310&text=Hola, Marinero | ¡Necesito más información!"target="_blank">+52 999 591 2310</a>
+                <a href="https://api.whatsapp.com/send?phone=+52 999 591 2310&text=Hola, Marinero | ¡Necesito más información!"target="_blank"  rel="noreferrer">+52 999 591 2310</a>
                 <p>Escríbenos</p>
                 <a href="mailto:hola@marinero.mx?Subject=Hola%20Marinero%20|%20¡Estoy%20interesado%20en%20que%20se%20contacten%20conmigo!">
                   hola@marinero.mx
