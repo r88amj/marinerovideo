@@ -155,5 +155,7 @@
 
   .wrapper-blog .arrow-container{
     padding-bottom: 10px;
+    justify-content: flex-end;
+    padding-right: 40px;
   }
 }
